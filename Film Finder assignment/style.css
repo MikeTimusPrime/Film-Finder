@@ -1,0 +1,34 @@
+* {
+    background-color: rgb(165, 161, 161)
+}
+
+p {
+    font-size: 200%;
+    justify-content: center;
+    display: flex;
+    color: black
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    color: black
+
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2em 0em;
+    
+}
+.li {
+    display: flex;
+    padding: 6px;
+    list-style-type: none;
+}
+
