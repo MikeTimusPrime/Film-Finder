@@ -11,8 +11,8 @@ const addMoviesToDom = (movies) => {
       li.appendChild(img);
     })
 }
-console.log(movies);
-  addMoviesToDom(movies)
+
+addMoviesToDom(movies);
   
 
 const radioButtons = document.getElementsByName('filter')
@@ -28,19 +28,17 @@ radioButtons.forEach(item => {
       alert("hello3");
   }
   if (document.getElementById('princessMovies').checked == true) {
+
+    filterPrincess = movies.filter((movies) => 
+    movies.title.includes("Princess", "princess")).map((movies) => movies);
+     console.log(filterPrincess);
+    
+  
+      addMoviesToDom(filterPrincess);
       
-    filterMovies = (movies) => {
-      const filteredMovies = movies.filter(movie => 
-          movies.includes("princess"));   
-  };
-  addMoviesToDom(filterMovies);
-       
-        
   }
+  
     if (document.getElementById('batmanMovies').checked == true) {
         alert("hello5");
   }
-      
-        
-    } )
-})
+})})
