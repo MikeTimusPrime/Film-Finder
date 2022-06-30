@@ -1,22 +1,22 @@
 * {
-    background-color: rgb(165, 161, 161)
+    background-color: black
 }
 
 p {
     font-size: 200%;
     justify-content: center;
     display: flex;
-    color: black
+    color: white
 }
 
 .topnav {
     display: flex;
     justify-content: center;
-    padding: 6px;
+    padding: 5px;
     margin-top: 8px;
     font-size: 17px;
     border: none;
-    color: black
+    color: white
 
 }
 ul {
@@ -31,4 +31,8 @@ ul {
     padding: 6px;
     list-style-type: none;
 }
-
+img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+  }
